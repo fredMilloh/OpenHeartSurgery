@@ -36,7 +36,7 @@ class Calculation {
         }
     }
 
-    /// adds a space between each elementForCalculation
+    /// Separates the elements of elementForCalculation in an array
     private var elements: [String] {
         elementForCalculation.split(separator: " ").map { "\($0)" }
     }
