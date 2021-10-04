@@ -31,12 +31,12 @@ Perform the main operations on iPhone.
 -   Xcode 12.5
 
 ## Skills
- - Protocol
+ - Delegate Pattern
+ - Computed and observed properties
  - Provide functionality improvements to an existing application
  - Creating an MVC software architecture
  - Correcting malfunctions
  - Perform a suite of unit and integration tests (TDD & RGR). 
- - Data communication with protocol. 
  - Syntax check with SwiftLint.
  
 ## How To Use

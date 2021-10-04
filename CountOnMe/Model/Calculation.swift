@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// Delegate pattern
 protocol CalculDelegate: AnyObject {
     func expression(with element: String)
     func presentAlert(message alertError: AlertError)
@@ -36,7 +37,7 @@ class Calculation {
         }
     }
 
-    /// Separates the elements of elementForCalculation in an array
+    /// Computed property - Separates the elements of elementForCalculation in an array
     private var elements: [String] {
         elementForCalculation.split(separator: " ").map { "\($0)" }
     }
