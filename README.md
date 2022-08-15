@@ -40,10 +40,15 @@ Perform the main operations on iPhone.
  - Syntax check with SwiftLint.
  
 ## How To Use
- From your terminal, clone this repository with the following git command : 
- ````
- $ git clone https://github.com/fredMilloh/OpenHeartSurgery
- ````
+
+  - Fork the project
+ 
+From your terminal :
+
+ - Create a branch and work on it
+ - Publish the branch on its fork
+ - Create the pull-request
+ 
 ## License
 
 [MIT License](https://github.com/fredMilloh/OpenHeartSurgery/blob/master)
